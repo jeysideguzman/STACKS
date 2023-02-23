@@ -1,0 +1,15 @@
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\bin\Debug\net6.0\STACKS.exe
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\bin\Debug\net6.0\STACKS.deps.json
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\bin\Debug\net6.0\STACKS.runtimeconfig.json
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\bin\Debug\net6.0\STACKS.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\bin\Debug\net6.0\STACKS.pdb
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.csproj.AssemblyReference.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.AssemblyInfoInputs.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.AssemblyInfo.cs
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.csproj.CoreCompileInputs.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\refint\STACKS.dll
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.pdb
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\STACKS.genruntimeconfig.cache
+C:\Users\JOHN CARLO\OOP PROGRAMS\STACKS\obj\Debug\net6.0\ref\STACKS.dll
