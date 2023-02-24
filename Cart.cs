@@ -11,21 +11,21 @@ namespace STACKS
         Stack<string> cart = new Stack<string>();
         Stack<string> redoStack = new Stack<string>();
 
-        public void Add(string itemName)
+        public void Push(string itemName)
         {
             //Stack.Push();
-;            cart.Push(itemName);
+             cart.Push(itemName);
         }
 
         //stack.Pop();
-        public void Undo()
+        public void Pop()
         {
             var item = cart.Pop();
             redoStack.Push(item);
         }
 
         //get the popped item then push again in the stack
-        public void Redo()
+        public void Return()
         {
             var item = redoStack.Pop();
             cart.Push(item);

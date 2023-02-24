@@ -20,12 +20,12 @@ namespace STACKS
             {
                 Console.WriteLine("\n\t\tMenu - select an option");
                 Console.WriteLine("\t\t-----------------------");
-                Console.WriteLine("\t\t1. Add an iten to cart");
-                Console.WriteLine("\t\t2. Undo");
-                Console.WriteLine("\t\t3. Redo");
-                Console.WriteLine("\t\t4. View Cart");
+                Console.WriteLine("\t\t1. Add an item to cart");
+                Console.WriteLine("\t\t2. Remove an item to cart");
+                Console.WriteLine("\t\t3. Return an item to cart");
+                Console.WriteLine("\t\t4. View Shopping Cart");
                 Console.WriteLine("\t\t5. Exit");
-                Console.WriteLine("Option ");
+                Console.WriteLine("Option: ");
                 option = int.Parse(Console.ReadLine());
 
                 switch (option)
@@ -34,22 +34,22 @@ namespace STACKS
                         bool repeat = true;
                         while (repeat)
                         {
-                            Console.Write("Enter item name(type 'n' to stop): ");
+                            Console.Write("Enter item name(type 's' to stop): ");
                             var itemName = Console.ReadLine();
 
-                            if (itemName != "n")
-                                Scart.Add(itemName);
+                            if (itemName != "s")
+                                Scart.Push(itemName);
 
-                            repeat = itemName == "n" ? false : true;
+                            repeat = itemName == "s" ? false : true;
                         }
                         ShowCartItems();
                         break;
                     case 2:
-                        Scart.Undo();
+                        Scart.Pop();
                         ShowCartItems();
                         break;
                     case 3:
-                        Scart.Redo();
+                        Scart.Return();
                         ShowCartItems();
                         break;
                     case 4:
@@ -67,12 +67,12 @@ namespace STACKS
         }
         public static void ShowCartItems()
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.Green;
             Console.WriteLine("\n\tCart Items");
             Console.WriteLine("\t----------");
             Scart.viewCart();
             Console.WriteLine("\t----------");
-            Console.ForegroundColor= ConsoleColor.White;
+            Console.ForegroundColor= ConsoleColor.Red;
               
         }
     }
